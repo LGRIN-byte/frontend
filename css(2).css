@@ -1,0 +1,19 @@
+selector{
+  property: value;
+}
+
+* {
+  color: green;
+}
+
+li {
+  color: blue;
+}
+
+#special {
+  color: pink;
+}
+
+.red {
+  background: yellow;
+}
