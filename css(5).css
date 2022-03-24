@@ -1,0 +1,32 @@
+div {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  background: red;
+}
+
+.container {
+  background: yellow;
+  left: 20px;
+  top: 20px;
+  #position: static;
+  # css의 기본값
+  position: relative;
+  # css의 기본값
+  
+}
+
+.box {
+  background: blue;
+  left: 20px;
+  top: 20px;
+  position: relative;
+  position: absolute;
+  #내 아이템이 담겨있는 내 아이템과 가장 가까이에 있는 박스안에서 위치 변경이 일어남 
+#제일 위에 있는 상자가 컨테이너니까 20픽셀씩 옮겨간거
+  position: fixed;
+  #상자에서 나와 윈도우,페이지 안에서 움직이는 것
+  position: sticky;
+  #스크롤해도 움직이지 않고 제자리에 있는것
+  
+}
